@@ -1,0 +1,196 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tarefa08</title>
+</head>
+
+
+<body>
+   <div id = "size">
+  <header id = "topo">
+    <h1>Preencha o formulário abaixo</h1>
+    
+    <form>
+
+      <header>Dados Pessoais</header>
+      <fieldset>
+
+        <div>
+            <label>Nome:</label>
+            <input type="text" name="Nome" id = "nome"> 
+            <label>Sobrenome:</label>
+            <input type="text" name="Sobrenome" id = "sobrenome">  
+
+            <br><br>
+
+            <label>Nascimento:</label>
+            <input type="text" name="dia" id = "dia" placeholder="dd" style="width: 30px; border-style: insert;">
+            <input type="text" name="mes" id = "mes" placeholder="mm" style="width:30px; border-style: insert;">
+            <input type="text" name="ano" id = "ano" placeholder="aaaa" style="width: 30px; border-style: insert;">    
+
+            <br><br>
+
+            <label>RG:</label>
+            <input type="text" name="RG" id = "rg">
+
+            <br><br>
+
+            <label>CPF:</label>
+            <input type="text" maxlength="9" name="cpf" id = "cpf" style="width: 120px; border-style: insert;"> 
+            <label>-</label>
+            <input type="text" maxlength="2" name="cpf" id = "cpf" style="width: 40px; border-style: insert;"> 
+       
+        </div>
+
+      </fieldset>
+
+      <br><br>
+
+      <header>Dados de Endereço</header>
+      <fieldset>
+
+        <div>
+
+          <label>Rua:</label>
+          <input type="text" name="rua" id = "rua">
+          <label>Numero:</label>
+          <input type="text" name="numero" id = "numero">
+
+          <br><br>
+
+          <label>Bairro:</label>
+          <input type="text" name="bairro" id = "bairro">
+
+          <br><br>
+
+          <label>Estado</label>
+          <select name = "estado" id = "estado"> 
+            <option value="Acre">Acre</option>
+            <option value="Alagoas">Alagoas</option>
+            <option value="Amapá">Amapá</option>
+            <option value="Amazonas">Amazonas</option>
+            <option value="Bahia">Bahia</option>
+            <option value="Ceará">Ceará</option>
+            <option value="Distrito Federeal">Distrito Federal</option>
+            <option value="Espírito Santo">Espírito Santo</option>
+            <option value="Goiás">Goiás</option>
+            <option value="Maranhão">Maranhão</option>
+            <option value="Mato Grosso">Mato Grosso</option>
+            <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+            <option value="Minas Gerais">Minas Gerais</option>
+            <option value="Pará">Pará</option>
+            <option value="Paraíba">Paraíba</option>
+            <option value="Paraná">Paraná</option>
+            <option value="Pernambuco">Pernambuco</option>
+            <option value="Piauí">Piauí</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+            <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+            <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+            <option value="Rondônia">Rondônia</option>
+            <option value="Roraima">Roraima</option>
+            <option value="Santa Catarina">Santa Catarina</option>
+            <option value="São Paulo">São Paulo</option>
+            <option value="Sergipe">Sergipe</option>
+            <option value="Tocantins">Tocantins</option>
+
+          </select>
+
+          <br><br>
+
+          <label>Cidade:</label>
+          <input type="text" name="cidade" id = "cidade">
+
+          <br><br>
+
+          <label>CEP:</label>
+          <input type="text" maxlength="5" name="cep" id = "cep" style="width: 65px; border-style: insert;">
+          <label>-</label>
+          <input type="text" maxlength="3" name="cep" id = "cep" style="width: 40px; border-style:insert">
+          
+        </div>
+      </fieldset>
+
+      <br><br>
+      <header>Dados de login</header>
+
+      <fieldset>
+
+        <div>
+
+          <label>E-mail:</label>
+          <input type="email" name="email" id = "email">
+
+          <br><br>
+
+          <label>Imagem de perfil:</label>
+          <input type="file" name="imagem perfil" id = "imagem">
+
+          <br><br>
+
+          <label>Login de usuário:</label>
+          <input type="text" name="login" id = "login">
+
+          <br><br>
+
+          <label>Senha:</label>
+          <input type="password" name="senha" id = "senha">
+
+          <br><br>
+
+          <label>Confirme a senha:</label>
+          <input type="password" name="confirmacao senha" id = "confirmacao senha">
+
+        </div>
+      </fieldset>
+
+      <br><br>
+      <header>Pesquisa de Interesse:</header>
+
+      <fieldset>
+        
+        <div>
+          
+          <label>Você deseja trabalhar como Webmaster?</label>
+          <input type="radio" name="resposta" id = "resposta" value="Sim">
+          <label for = "Sim">Sim</label><br>
+
+          <input type="radio" name="resposta" id = "resposta" value="Não">
+          <label for = "Não">Não</label><br>
+
+          <input type="radio" name="resposta" id = "resposta" value="Talvez">
+          <label for = "Talvez">Talvez</label><br>
+
+          <input type="radio" name="resposta" id = "resposta" value="Sim">
+          <label for = "Quem sabe">Quem sabe</label>
+
+          <br><br>
+
+          <label>O que você deseja aprender?</label>
+
+          <input type="checkbox" name="resposta" id = "resposta" value ="HTML">
+          <label for = "HTML">HTML</label><br>
+
+          <input type="checkbox" name="resposta" id = "resposta" value ="CSS">
+          <label for = "CSS">CSS</label><br>
+
+          <input type="checkbox" name="resposta" id = "resposta" value ="JavaScript">
+          <label for = "JavaScript">JavaScript</label><br>
+
+          <input type="checkbox" name="resposta" id = "resposta" value ="Django">
+          <label for = "Django">Django</label><br>
+
+          <label>Deixe seu comentário:</label>
+          <input type="text" name="comentario id = comentario" style="width:340px; height: 150px;">
+
+        </div>
+      </fieldset>
+      
+  </form>
+  
+</body>
+</html>
+  
+ 
+  
+  
+
