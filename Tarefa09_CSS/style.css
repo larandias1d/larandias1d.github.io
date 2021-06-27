@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+
+
+
+main h1{
+    font-family: 'Fredericka the Great', Calibri;
+}
+
+main {
+	height: 660px;
+    background-image: url('https://papers.co/wallpaper/papers.co-bj18-cloud-sky-purple-art-29-wallpaper.jpg') ;
+}
+
+article {
+    background-color: #B0E0E6;
+}
+
+article {
+    color:  darkmagenta;
+    text-align: center;
+}
