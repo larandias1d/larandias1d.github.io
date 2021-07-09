@@ -1,0 +1,328 @@
+header img {
+	margin-left: 50px;
+}
+header nav {
+	
+	float: right;
+	margin-top: 10px;
+	margin-right: 170px;
+	
+}
+
+header nav a {
+	
+	padding: 8px;
+	border-right: 1px solid black;
+
+}
+
+header p{
+	float: right;
+	margin-top: 8px;
+	margin-right: -430px;
+}
+header mark {
+	background-color: black;
+	color: white;
+}
+
+ #button1 {
+ 	float: right;
+ 	margin-top: 50px;
+ 	margin-right: -170px;
+	padding-right: 10px;
+	box-shadow: 4px 4px 0 #333;
+}
+input {
+	float: right;
+ 	margin-top: 50px;
+ 	margin-right: -392px;
+ 	width: 194px;
+}
+
+ #button2 {
+	float: right;
+ 	margin-top: 50px;
+ 	margin-right: -430px;
+	padding-right: 10px;
+	box-shadow: 4px 4px 0 #333;
+}
+
+ #advanced {
+ 	float: right;
+ 	margin-top: 80px;
+	margin-right: -430px;
+}
+
+header div {
+	margin-right: 50px;
+}
+header div a {
+
+	float: right;
+	width: 180px;
+	height: 22px;
+	border: 2px solid #000000;
+	
+	display: block;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+
+	margin-right: 8px;
+	
+}
+
+.container {
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	margin: 50px;
+	width: 22%;
+}
+
+.foto {
+
+	padding-right: 30px;
+	height: 166px;
+}
+
+#nome h1 {
+	width: 16px;
+	height: 20px;
+	font-size: 24px;
+	text-align: left;
+	margin-top: -160px;
+	margin-left: 210px;
+
+}
+
+.lista {
+
+	margin-top: 30px;
+	display: block;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+
+
+}
+
+.lista li  {
+
+	display: block;
+	color: black;
+	width: 274px;
+	height: 20px;
+	border: 2px solid #000000;
+	margin-top: 10px;
+	
+	text-decoration: none;
+	text-align: left;
+	padding-left: 20px;
+
+}
+.lista a {
+	display: block;
+	color: black;
+	text-decoration: none;
+	text-align: left;
+}
+
+.topicos {
+
+	width: 288px;
+	height: 140px;
+	display: block;
+	background-color:#FFE4B5;
+	color: black;
+	text-decoration: none;
+	margin: 4px;
+	padding-left: 8px;
+	line-height: 25px;
+}
+
+
+.container2 {
+
+	display: flex;
+	width: 45%;
+	height: auto;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	margin: 50px;
+	margin-right: 350px;
+	float: right;
+	margin-top: -658px;
+}
+
+
+.colunaEsquerda {
+
+	float: left;
+	padding-top: 40px;
+	padding-left:15px;
+	text-align: right;
+	line-height: 18px;
+}
+
+.section {
+	height: 286px;
+	width: 600px;
+	margin-right: 30px;
+	background-color: #EEE8AA;
+	padding-bottom: 10px;
+}
+
+.titulo {
+	float: left;
+	margin-top: 12px;
+	margin-left: -110px;
+	font-size: 20px;
+}
+
+.section a {
+	float: right;
+	padding-top: 20px;
+	padding-right: 54px;
+}
+
+.texto {
+	padding-top: 23px;
+	text-align: justify;
+	margin-left: 160px;
+	margin-right: 54px;
+	line-height: 18px;
+	
+
+}
+
+#sectionMeio {
+	margin-top: 32px;
+	height: 105px;
+	width: 600px;
+	margin-right: 30px;
+	background-color: #B0E0E6;
+
+}
+
+#sectionMeio p {
+	margin-top: -4px;
+	padding-left:30px;
+	padding-right: 42px;
+}
+.title {
+	font-size: 18px;
+	margin-top: 12px;
+	padding-left: 30px;
+}
+
+.fotos {
+	max-height: auto;
+	height: 600px;
+}
+
+#sectionBaixo {
+	margin-top: 32px;
+	height: 142px;
+	width: 600px;
+	margin-right: 30px;
+	background-color: #FFE4B5;
+}
+.data {
+	margin-top: -4px;
+	padding-left:30px;
+	text-align: left;
+	line-height: 30px;
+	text-align: right;
+	margin-right: 440px;
+}
+.evento {
+
+	margin-top: -85px;
+	margin-right: 270px;
+	float: right;
+	line-height: 30px;
+	text-align: left;
+}
+
+.container3 {
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	margin: 50px;
+	width: 20%;
+	float: right;
+	margin-top: -658px;
+}
+
+
+
+#sectionDM {
+
+	margin-top: 32px;
+	height: 105px;
+	margin-right: 30px;
+
+}
+
+#sectionDB {
+
+	margin-top: 32px;
+	height: 110px;
+	margin-right: 30px;
+
+}
+
+
+.img {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.descricao {
+	float: right;
+	margin-top: -110px;
+	margin-left: 68px;
+	text-align: left;
+
+}
+
+
+footer nav {
+	
+	margin-left: 50px;
+	border-top: 1px solid black;
+	margin-right: 50px;
+}
+
+footer nav a {
+	
+	padding: 8px;
+	border-right: 1px solid black;
+	float: left;
+
+}
+
+#rodape1 {
+	padding: 8px;
+	display: inline-block;
+	margin-top: -0px;
+	margin-left: 399px;
+	border-right: 1px solid black;
+	padding: 8px;
+}
+
+#rodape2 {
+	padding: 8px;
+	display: inline-block;
+	margin-top: -0px;
+	
+}
+
+
