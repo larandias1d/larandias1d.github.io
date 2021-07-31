@@ -1,0 +1,71 @@
+<!--Lara Nogueira Dias -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Trabalho-P2</title>
+   <script type="text/javascript" src="javaScript.js"></script>
+</head>
+
+
+<body>
+   <div id = "size">
+   <header id = "topo">
+    <h1>Preencha o formulário abaixo</h1>
+    
+    <form>
+
+      <div>
+          <label>Nome:</label>
+          <input type="text" name="Nome" id = "nome"> 
+          <label>Telefone:</label>
+          <input type="text" name="Telefone" id = "telefone">  
+
+          <br><br><br>
+
+          <label for="entrada">
+          Data Entrada
+          </label>
+          <input type="date" id="entrada" /><br /><br />
+
+          <br><br>
+
+          <label for="saida">
+          Data Saída
+          </label>
+          <input type="date" id="saida" /><br /><br />
+  
+
+          <br><br><br>
+
+          <label>Tipo de Quarto</label>
+          <select name = "quarto" id = "quarto"> 
+          <option value="Single">Single(R$139,00)</option>
+          <option value="Double">Double(R$220,00)</option>
+          <option value="Triplo">Triplo(R$340,00)</option>
+
+          </select>
+
+          <br><br>
+          <br><br>
+
+          <label>Número de crianças menores de 5 anos:</label>
+          <input type="text" name="qtde" id = "qtde" style="width: 30px; border-style: insert;">    
+       
+      </div>
+
+      <br><br>
+      <button type="button" onclick="calcularTotal(form.entrada.value, form.saida.value, form.quarto.value)"> Preço</button> 
+      <br><br>
+      <br><br>      
+    </form>
+  </div>
+  
+</body>
+</html>
+  
+ 
+  
+  
+
+
+
