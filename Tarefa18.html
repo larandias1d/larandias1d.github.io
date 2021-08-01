@@ -1,0 +1,80 @@
+<!--Lara Nogueira Dias-->
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tarefa 18 - Evento2</title>
+  </head>
+
+  <body>
+    <p id="exemplo1">
+      [1]Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum
+    </p>
+    <a href="#" id="link1">Ocultar conteúdo</a>
+    <br />
+
+    <p id="exemplo2">
+      [2]Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum
+    </p>
+    <a href="#" id="link2">Ocultar conteúdo</a>
+    <br />
+
+    <p id="exemplo3">
+      [3]Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum
+    </p>
+    <a href="#" id="link3">Ocultar conteúdo</a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+
+        $("#link1").click(function () {
+          //primeiro texto de exemplo
+          $("#exemplo1").toggle();
+
+          // Se o texto html do id link1 for true or false -> ultizei operador ternário
+          $("#link1").html() == "Ocultar conteúdo"
+            ? $("#link1").html("Mostrar conteúdo")
+            : $("#link1").html("Ocultar conteúdo");
+        });
+
+
+        $("#link2").click(function () {
+          $("#exemplo2").toggle();
+
+          // Se o texto html do id link1 for true or false -> ultizei operador ternário
+          $("#link2").html() == "Ocultar conteúdo"
+            ? $("#link2").html("Mostrar conteúdo")
+            : $("#link2").html("Ocultar conteúdo");
+        });
+ 
+        $("#link3").click(function () {
+          $("#exemplo3").toggle();
+
+          $("#link3").html() == "Ocultar conteúdo"
+            ? $("#link3").html("Mostrar conteúdo")
+            : $("#link3").html("Ocultar conteúdo");
+        });
+      });
+    </script>
+  </body>
+</html>
